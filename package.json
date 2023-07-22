@@ -31,6 +31,7 @@
     "prettier": "3.0.0"
   },
   "lint-staged": {
-    "**/*": "next lint && prettier --write --ignore-unknown ."
+    "**/*": "prettier --write --ignore-unknown .",
+    "*.{js,jsx,ts,tsx}": "eslint --cache --fix"
   }
 }
