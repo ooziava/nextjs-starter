@@ -31,6 +31,6 @@
     "prettier": "3.0.0"
   },
   "lint-staged": {
-    "**/*": "prettier --write"
+    "**/*": "next lint && prettier --write --ignore-unknown ."
   }
 }
