@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "paths": {
-      "constants/* services/* utils/* data/*": ["./*"]
+      "constants/*": ["./constants/*"],
+      "services/*": ["./services/*"],
+      "utils/*": ["./utils/*"],
+      "data/*": ["./data/*"]
     }
   }
 }
